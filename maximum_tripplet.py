@@ -13,7 +13,7 @@ def maximumTripletValue(nums):
             suf[i] = max(suf[i+1], nums[i])
         
         ans = 0
-        for i in range(n):
-            ans = max(ans, (pre[i]-nums[i])*suf[i])
+        for i in range(1,n-1):
+            ans = max(ans, (pre[i-1]-nums[i])*suf[i+1])
         return ans
 print(maximumTripletValue([2, 3, 1]))

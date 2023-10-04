@@ -12,6 +12,12 @@
 
 #include<bits/stdc++.h>
 using namespace std;
+class TreeNode{
+    public:
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+};
 class Solution {
 public:
     bool findTarget(TreeNode* root, int k) {
