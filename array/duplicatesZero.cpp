@@ -21,6 +21,7 @@ public:
                 arr[right] = 0;
             }
         }
+        cout<<arr[right];
         
     }
 };
