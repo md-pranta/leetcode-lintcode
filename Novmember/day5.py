@@ -11,3 +11,4 @@ class Solution:
                 win = 1
             if win == k or maxNumber == current:
                 return current
+print(['null']*5)
